@@ -69,7 +69,7 @@ function App() {
           <h1 className="text-8xl md:text-9xl font-titan text-[#FFF081] mb-6 md:mb-8 tracking-tight">
             FiNNO
           </h1>
-          <p className="text-[#FFF081] font-bold text-lg md:text-lg font-mono tracking-wider">
+          <p className="text-[#FFF081] font-bold text-sm md:text-lg font-mono tracking-wider">
            {contractAddress}
           </p>
         </div>
