@@ -28,7 +28,7 @@ const frogImages = [
 const infiniteImages = [...frogImages, ...frogImages, ...frogImages]
 
 function App() {
-  const contractAddress = "** CA : coming soon **"; // ganti sesuai CA asli
+  const contractAddress = "DjqWMS71XjT8wsngKpY3iNrBBMu8VMLR8SsZi2BdBAGS"; // ganti sesuai CA asli
   const [copied, setCopied] = useState(false);
   const [flip, setFlip] = useState(false);
 
@@ -67,7 +67,7 @@ function App() {
         {/* Title */}
         <div className="text-center mb-8">
           <h1 className="text-8xl md:text-9xl font-titan text-[#FFF081] mb-6 md:mb-8 tracking-tight">
-            FiNN
+            FiNNO
           </h1>
           <p className="text-[#FFF081] font-bold text-lg md:text-lg font-mono tracking-wider">
            {contractAddress}
