@@ -78,7 +78,7 @@ function App() {
           <button onClick={handleCopy} className="px-8 py-3 border-2 border-[#FFF081] text-[#FFF081] rounded-full font-semibold hover:bg-[#FFF081] hover:text-black transition-all duration-300 mb-4">
             {copied ? "COPIED!" : "COPY CA"}
           </button>
-           <a href="#" target="_blank"><button className="px-8 py-3 bg-[#FFF081] text-[#2673d1] rounded-full font-extrabold hover:bg-[#eddd7b] transition-all duration-300 flex items-center gap-2 mb-8 text-2xl">
+           <a href="https://dexscreener.com/solana/DjqWMS71XjT8wsngKpY3iNrBBMu8VMLR8SsZi2BdBAGS" target="_blank"><button className="px-8 py-3 bg-[#FFF081] text-[#2673d1] rounded-full font-extrabold hover:bg-[#eddd7b] transition-all duration-300 flex items-center gap-2 mb-8 text-2xl">
             💰 BUY NOW
           </button>
           </a>
@@ -88,7 +88,7 @@ function App() {
 
 
 
-        <a href="https://dexscreener.com/solana/#" target="_blank" rel="noopener noreferrer" className="w-[50px] h-[50px] flex items-center justify-center text-[#FFF081] text-2xl border-2 transition-[0.3s] no-underline font-extrabold rounded-[50%] border-solid border-[#FFF081] hover:scale-125"><img src="/assets/dex3.png" alt="DEX" className="w-[30px] h-[30px] block " /></a>
+        <a href="https://dexscreener.com/solana/DjqWMS71XjT8wsngKpY3iNrBBMu8VMLR8SsZi2BdBAGS" target="_blank" rel="noopener noreferrer" className="w-[50px] h-[50px] flex items-center justify-center text-[#FFF081] text-2xl border-2 transition-[0.3s] no-underline font-extrabold rounded-[50%] border-solid border-[#FFF081] hover:scale-125"><img src="/assets/dex3.png" alt="DEX" className="w-[30px] h-[30px] block " /></a>
 
         </div>
 
