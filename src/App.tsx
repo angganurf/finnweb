@@ -2,26 +2,26 @@ import { useState, useEffect } from 'react'
 
 // All the frog images from the original website
 const frogImages = [
-  '/public/assets/1.jpg',
-  '/public/assets/2.jpg',
-  '/public/assets/3.jpg',
-  '/public/assets/4.jpg',
-  '/public/assets/5.jpg',
-  '/public/assets/6.jpg',
-  '/public/assets/7.jpg',
-  '/public/assets/8.jpg',
-  '/public/assets/9.jpg',
-  '/public/assets/10.jpg',
-  '/public/assets/11.jpg',
-  '/public/assets/12.jpg',
-  '/public/assets/13.jpg',
-  '/public/assets/14.jpg',
-  '/public/assets/15.jpg',
-  '/public/assets/16.jpg',
-  '/public/assets/17.jpg',
-  '/public/assets/18.jpg',
-  '/public/assets/19.jpg',
-  '/public/assets/20.jpg',
+  '/assets/1.jpg',
+  '/assets/2.jpg',
+  '/assets/3.jpg',
+  '/assets/4.jpg',
+  '/assets/5.jpg',
+  '/assets/6.jpg',
+  '/assets/7.jpg',
+  '/assets/8.jpg',
+  '/assets/9.jpg',
+  '/assets/10.jpg',
+  '/assets/11.jpg',
+  '/assets/12.jpg',
+  '/assets/13.jpg',
+  '/assets/14.jpg',
+  '/assets/15.jpg',
+  '/assets/16.jpg',
+  '/assets/17.jpg',
+  '/assets/18.jpg',
+  '/assets/19.jpg',
+  '/assets/20.jpg',
 ]
 
 // Duplicate the array for seamless infinite scroll
@@ -84,11 +84,11 @@ function App() {
           </a>
      
         <div className="flex flex-row gap-4 relative mb-64">
-        <a href="https://x.com/Finn0nbags" target="_blank" rel="noopener noreferrer" className="w-[50px] h-[50px] flex items-center justify-center text-[#FFF081] text-2xl border-2 transition-[0.3s] no-underline font-extrabold rounded-[50%] border-solid border-[#FFF081] hover:scale-125"><img src="/public/assets/tw3.png" alt="Twitter" className="w-[30px] h-[30px] block " /></a>
+        <a href="https://x.com/Finn0nbags" target="_blank" rel="noopener noreferrer" className="w-[50px] h-[50px] flex items-center justify-center text-[#FFF081] text-2xl border-2 transition-[0.3s] no-underline font-extrabold rounded-[50%] border-solid border-[#FFF081] hover:scale-125"><img src="/assets/tw3.png" alt="Twitter" className="w-[30px] h-[30px] block " /></a>
 
 
 
-        <a href="https://dexscreener.com/solana/#" target="_blank" rel="noopener noreferrer" className="w-[50px] h-[50px] flex items-center justify-center text-[#FFF081] text-2xl border-2 transition-[0.3s] no-underline font-extrabold rounded-[50%] border-solid border-[#FFF081] hover:scale-125"><img src="/public/assets/dex3.png" alt="DEX" className="w-[30px] h-[30px] block " /></a>
+        <a href="https://dexscreener.com/solana/#" target="_blank" rel="noopener noreferrer" className="w-[50px] h-[50px] flex items-center justify-center text-[#FFF081] text-2xl border-2 transition-[0.3s] no-underline font-extrabold rounded-[50%] border-solid border-[#FFF081] hover:scale-125"><img src="/assets/dex3.png" alt="DEX" className="w-[30px] h-[30px] block " /></a>
 
         </div>
 
@@ -175,7 +175,7 @@ function App() {
 
           {/* Frog body */}
             <img
-              src="/public/assets/finn2.png"
+              src="/assets/finn2.png"
               alt="Finn"
               className={`w-full drop-shadow-[0_8px_15px_rgba(0,0,0,0.3)] ${flip ? "scale-x-[-1]" : ""}`}
               onMouseEnter={() => setFlip(true)}
